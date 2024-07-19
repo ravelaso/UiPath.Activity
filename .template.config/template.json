@@ -1,0 +1,21 @@
+{
+  "author": "Andres Ravelo",
+  "classifications": ["Common", "Library"],
+  "name": "UiPath Activity with UnitTests",
+  "identity": "Ravelo.UiPath.Activity",
+  "shortName": "ravelo-uipath-activity",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "UiPath.Activity",
+  "preferNameDirectory": true,
+  "guids": [
+    "{E8911A1E-CAC8-4945-BA5F-DEA4860FEC2C}",
+    "{926C9646-540A-4959-93B2-E1082DB4B586}"
+  ],
+  "primaryOutputs": [
+    { "path": "UiPath.Activity/UiPath.Activity.csproj" },
+    { "path": "UiPath.Activity.Tests/UiPath.Activity.Tests.csproj" }
+  ]
+}
