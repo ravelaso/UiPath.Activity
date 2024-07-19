@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>UiPath.Activity</id>
+    <version>1.0.0</version>
+    <authors>Andres Ravelo</authors>
+    <owners>Andres Ravelo</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A copy of the official template by UiPath, which works with JetBrains Rider, or dotnet new install.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2024</copyright>
+    <tags>dotnet-new</tags>
+  </metadata>
+  <files>
+    <file src="**" target="content" exclude="**\bin\**;**\obj\**;**\.template.config\**;**\.vs\**;**\.git\**" />
+    <file src=".template.config\template.json" target="content\.template.config\template.json" />
+  </files>
+</package>
